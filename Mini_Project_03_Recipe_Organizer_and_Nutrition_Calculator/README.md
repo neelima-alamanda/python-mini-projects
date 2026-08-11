@@ -107,9 +107,9 @@ After completing this project, I learned how to:
 
 ## 👩‍💻 Connect
 
-GitHub: https://github.com/<your-username>
+GitHub: https://github.com/neelima-alamanda
 
-LinkedIn: https://www.linkedin.com/in/<your-profile>
+LinkedIn: https://www.linkedin.com/in/neelima-alamanda-64b1752a1
 
 ---
 
