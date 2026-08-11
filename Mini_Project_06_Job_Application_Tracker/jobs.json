@@ -1,0 +1,13 @@
+[
+    {
+        "job_id": 102,
+        "title": "fullstack developer",
+        "required_skills": [
+            "Api",
+            "Crud",
+            "Forntend",
+            "Backend"
+        ],
+        "min_gpa": 3.7
+    }
+]

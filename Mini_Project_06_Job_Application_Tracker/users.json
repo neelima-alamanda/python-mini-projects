@@ -1,0 +1,34 @@
+[
+    {
+        "name": "Thomas",
+        "skills": [
+            "Python",
+            "Flask",
+            "Sql",
+            "Git"
+        ],
+        "gpa": 4.0
+    },
+    {
+        "name": "Alice",
+        "skills": [
+            "Python"
+        ],
+        "gpa": 4.0
+    },
+    {
+        "name": "David",
+        "skills": [
+            "Html",
+            "React"
+        ],
+        "gpa": 3.5
+    },
+    {
+        "name": "Bob",
+        "skills": [
+            "python"
+        ],
+        "gpa": 3.5
+    }
+]
