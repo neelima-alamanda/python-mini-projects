@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+<!-- Extend the base template to reuse the layout and structure -->
+
+{% block content %}
+<!-- Start defining the specific content block for the 'About' page -->
+
+<section class="roadmap">
+    <!-- Roadmap section describing the learning journey -->
+
+    <h1>📚 About my Learning Journey</h1>
+    <!-- Title for the roadmap section -->
+
+    <p>
+        These are the technologies I've learned during my journey toward becoming
+        a Python Backend Developer.
+    </p>
+    <!-- Brief description of the learning journey -->
+
+    <div class="skills">
+        <!-- Grid layout showcasing learned skills -->
+
+        <div class="card">🌐 HTML</div>
+        <!-- Individual skill card -->
+        <div class="card">🎨 CSS</div>
+        <div class="card">⚡ JavaScript</div>
+        <div class="card">🐍 Python</div>
+        <div class="card">🧩 OOP</div>
+        <div class="card">📚 Data Structures</div>
+
+        <div class="card current">🌶️ Flask
+            <!-- Current technology being learned -->
+            <span>Currently Learning</span>
+        </div>
+    </div>
+
+    <h2>🎯 What's Next?</h2>
+    <!-- Title for future goals section -->
+
+    <div class="goals">
+        <!-- Grid layout showcasing upcoming learning goals -->
+
+        <div class="goal">🗄 SQLite & MySQL</div>
+        <!-- Individual goal card -->
+        <div class="goal">🔗 REST APIs</div>
+        <div class="goal">🔐 Authentication</div>
+        <div class="goal">⚙ Django</div>
+        <div class="goal">🚀 FastAPI</div>
+        <div class="goal">☁ Deployment</div>
+    </div>
+
+</section>
+<!-- End of the roadmap section -->
+
+{% endblock %}
+<!-- End of content block -->

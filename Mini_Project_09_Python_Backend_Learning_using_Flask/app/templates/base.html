@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Specify the document type and the language -->
+        <meta charset="UTF-8"> <!-- Set character encoding to UTF-8 -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Ensure responsive design for all devices -->
+        <meta
+            name="description"
+            content="Documenting my Python Backend Learning Journey using Flask, Python, and hands-on projects."> <!-- Add SEO-friendly description -->
+        <title>Flask Basics Assignment</title> <!-- Page title -->
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}"> <!-- Link to external CSS file -->
+    </head>
+    <body>
+        <!-- Navigation Bar -->
+        <nav class="navbar">
+
+            <div class="logo">
+                <!-- Site logo or title -->
+                🚀 Backend Journey
+            </div>
+
+            <div class="nav-links">
+                <!-- Dynamic navigation links with active page highlighting -->
+                <a href="/" class="{% if request.path == '/' %}active{% endif %}">Home</a>
+                <a href="/about" class="{% if request.path == '/about' %}active{% endif %}">About</a>
+                <a href="/contact" class="{% if request.path == '/contact' %}active{% endif %}">Connect</a>
+            </div>
+
+        </nav>
+        
+        <hr> <!-- Horizontal rule as a separator -->
+
+        <!-- Content block for individual pages, overridden using template inheritance -->
+        {% block content %}
+        {% endblock %}
+    </body>
+    
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Neelima Alamanda | Python Backend Learning Journey | Built with Flask ❤️</p> <!-- Footer content -->
+    </footer>
+</html>
