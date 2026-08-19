@@ -85,7 +85,7 @@ Mini_Project_09_Python_Backend_Learning_using_Flask/
 ├── README.md
 ├── app.py
 ├── requirements.txt
-├── Python Backend Learning Journey using Flask.pdf
+├── Python_Backend_Learning_Journey_using_Flask.pdf
 │
 └── app/
     ├── __init__.py
@@ -99,6 +99,7 @@ Mini_Project_09_Python_Backend_Learning_using_Flask/
         ├── home.html
         ├── about.html
         └── contact.html
+```
 ## 📁 Project Files
 
 ### `app.py`
@@ -137,7 +138,7 @@ Contains the styling for the complete application, including the navigation bar,
 
 Contains the Python dependencies required to run the Flask application.
 
-### `Python Backend Learning Journey using Flask.pdf`
+### `Python_Backend_Learning_Journey_using_Flask.pdf`
 
 Contains the detailed project documentation, including the Project Overview, Problem Statement, Features, Technologies Used, Project Structure, Python & Flask Concepts Used, Program Workflow, Output Screenshots, Learning Outcomes, and Conclusion.
 
